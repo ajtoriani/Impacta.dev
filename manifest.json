@@ -1,0 +1,17 @@
+{
+  "name": "Impacta.dev | Tecnologia Humana",
+  "short_name": "Impacta.dev",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#FDFCF8",
+  "theme_color": "#D97706",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "assets/img/impacta.png",
+      "type": "image/png",
+      "sizes": "any",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impacta.dev | Para Desenvolvedores</title>
+     <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#D97706">
+    <link rel="icon" type="image/png" href="../img/favicon.svg">
+
+    <meta name="description" content="Impacta.dev conecta desenvolvedores iniciantes em busca de experiência a ONGs que precisam de presença digital. Voluntariado técnico com propósito.">
+    <meta name="keywords" content="voluntariado, desenvolvedor front-end, ongs, portfólio, experiência, tech, programação, acessibilidade">
+    <meta name="author" content="Ana Julia Toriani">
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;400;600&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header js-header">
+        <nav class="navbar container">
+            <a href="../index.html" class="logo">Impacta<svg class="spark-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin: 0 2px; vertical-align: middle; transform: translateY(-2px);">
+        <path d="M12 0L14.59 9.41L24 12L14.59 14.59L12 24L9.41 14.59L0 12L9.41 9.41L12 0Z" fill="#D97706"/>
+    </svg>dev</a>
+            
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="./devs.html" style="color: var(--primary);">Para Desenvolvedores</a></li>
+                    <li><a href="../3_Ongs/ongs.html">Para ONGs</a></li>
+                    <li><a href="../4_Sobre/sobre.html">Sobre Nós</a></li>
+                </ul>
+                <a href="#inscrever" class="btn-primary small">Inscrever-se</a>
+            </div>
+
+            <div class="mobile-toggle" id="mobile-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section full-hero dev-hero">
+            <div class="container hero-content text-center js-anim">
+                <span class="pill-tag light"> Acelere sua carreira</span>
+                <h1 class="heading-xl light-text">Seu primeiro projeto real começa aqui.</h1>
+                <p class="body-lg light-text">
+                    Pare de estudar sozinho. Entre para um squad, receba mentoria de Tech Leads e entregue software que impacta vidas reais.
+                </p>
+                <div class="button-group center-group">
+                    <a href="#inscrever" class="btn-primary">Quero ser voluntário</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-padding">
+            <div class="container">
+                <div class="text-center mb-60">
+                    <span class="label-text">O Processo</span>
+                    <h2 class="heading-lg">Como você vai trabalhar</h2>
+                    <p class="body-md">Do "Hello World" ao Deploy em 4 passos.</p>
+                </div>
+
+                <div class="timeline">
+                    <div class="timeline-item js-scroll-fade">
+                        <div class="timeline-number">01</div>
+                        <div class="timeline-content">
+                            <h3>Match & Squad</h3>
+                            <p>Você se inscreve e nós te conectamos a uma ONG e a um time com outros devs e designers do seu nível.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item js-scroll-fade">
+                        <div class="timeline-number">02</div>
+                        <div class="timeline-content">
+                            <h3>Planejamento & Mentoria</h3>
+                            <p>Um Tech Lead sênior ajuda a definir a arquitetura e as tarefas no Trello/Jira. Você nunca está sozinho.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item js-scroll-fade">
+                        <div class="timeline-number">03</div>
+                        <div class="timeline-content">
+                            <h3>Mão na Massa (Code)</h3>
+                            <p>Desenvolvimento em Sprints semanais. Você aprende Git Flow, Clean Code e resolução de problemas reais.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item js-scroll-fade">
+                        <div class="timeline-number">04</div>
+                        <div class="timeline-content">
+                            <h3>Entrega & Certificado</h3>
+                            <p>Deploy realizado! A ONG recebe o site, você ganha o certificado e um projeto incrível para o portfólio.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-padding bg-cream-dark">
+            <div class="container split-grid">
+                <div class="text-box js-scroll-fade">
+                    <h2 class="heading-lg">Não é só código.<br>É vivência de mercado.</h2>
+                    <p class="body-md">
+                        Cursos ensinam sintaxe. Nós ensinamos como ser um desenvolvedor profissional no dia a dia.
+                    </p>
+                    <ul class="benefits-list">
+                        <li><strong>Git & GitHub:</strong> Pull Requests, Code Review e Merge Conflicts.</li>
+                        <li><strong>Metodologias Ágeis:</strong> Daily, Planning e Retro.</li>
+                        <li><strong>Comunicação:</strong> Como explicar escolhas técnicas.</li>
+                        <li><strong>Stack Flexível:</strong> Use o que sabe (HTML/CSS, React, Vue, Node).</li>
+                    </ul>
+                </div>
+                <div class="image-box js-scroll-fade">
+                    <svg class="blob-svg js-scroll-float" data-speed="0.8" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#FDE68A" d="M44.7,-76.4C58.9,-69.2,71.8,-59.1,81.6,-46.6C91.4,-34.1,98.2,-19.2,95.8,-5.3C93.4,8.6,81.8,21.5,70.5,32.4C59.2,43.3,48.2,52.2,36.4,59.3C24.6,66.4,12,71.7,-1.8,74.8C-15.6,77.9,-31.8,78.9,-44.9,72.4C-58,65.9,-68,52,-74.6,37.3C-81.2,22.6,-84.4,7.1,-80.7,-6.9C-77,-20.9,-66.4,-33.4,-54.6,-41.8C-42.8,-50.2,-29.8,-54.5,-17.1,-58.2C-4.4,-61.9,13.8,-75.8,30.5,-83.6L44.7,-76.4Z" transform="translate(100 100)" />
+                    </svg>
+                    <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80&w=800" alt="Mentoria Dev">
+                </div>
+            </div>
+        </section>
+
+        <section id="inscrever" class="section-padding">
+            <div class="container" style="max-width: 600px;">
+                <div class="text-center mb-60">
+                    <h2 class="heading-lg">Junte-se ao Impacta.dev</h2>
+                    <p class="body-md">Preencha abaixo para entrar na lista de espera dos próximos squads.</p>
+                </div>
+
+                <form 
+    action="https://formspree.io/f/mbdlnyoe" 
+    method="POST" 
+    class="impacta-form js-scroll-fade"
+>
+    
+    <input type="hidden" name="_next" value="index.html">
+    <input type="hidden" name="_subject" value="Nova inscrição de Dev no Impacta!">
+
+    <div class="form-group">
+        <label for="nome">Nome Completo</label>
+        <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+    </div>
+    
+    <div class="form-group">
+        <label for="email">Seu melhor e-mail</label>
+        <input type="email" id="email" name="email" placeholder="exemplo@email.com" required>
+    </div>
+
+    <div class="form-group">
+        <label for="stack">Qual sua stack principal?</label>
+        <select id="stack" name="stack" required>
+            <option value="" disabled selected>Selecione...</option>
+            <option value="front-basic">HTML/CSS/JS (Iniciante)</option>
+            <option value="front-react">Front-end (React/Vue/Angular)</option>
+            <option value="back">Back-end (Node/Python/Java)</option>
+            <option value="design">UX/UI Design</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="linkedin">Link do LinkedIn ou GitHub</label>
+        <input type="url" id="linkedin" name="linkedin" placeholder="https://...">
+    </div>
+
+    <button type="submit" class="btn-primary" style="width: 100%; border: none; cursor: pointer;">
+        Enviar Inscrição
+    </button>
+    
+    <p class="form-footer">Prometemos não enviar spam. O contato é feito via e-mail.</p>
+</form>
+            </div>
+        </section>
+
+    </main>
+
+   <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <span class="logo">Impacta<svg class="spark-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin: 0 2px; vertical-align: middle; transform: translateY(-2px);">
+        <path d="M12 0L14.59 9.41L24 12L14.59 14.59L12 24L9.41 14.59L0 12L9.41 9.41L12 0Z" fill="#D97706"/>
+    </svg>dev</span>
+                <p>Onde código encontra propósito.</p>
+                <p>© 2026 | Idealizado por AJ.</p>
+            </div>
+            <div class="footer-links">
+                <a href="https://anajuliatorianipessoa.vercel.app/" target="_blank">Meu Portifólio</a>
+                <a href="https://www.linkedin.com/in/anajuliatoriani/" target="_blank">LinkedIn</a>
+                <a href="mailto: anajuliatoriani@gmail.com" target="_blank">Email</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+</body>
+</html>
